@@ -1,0 +1,84 @@
+
+body {
+    color: #262629;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero-image {
+    background-image: url(images/wave1.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: none;
+    margin: none;
+}
+.hero-text {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+h3 {
+    background-image: linear-gradient(#79DBFE,#C8F2FF);
+
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+.icon {
+    width: 80px;
+    display: block;}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon2{
+    width: 100px;
+}
+.icon3{
+    width: 100px;
+}
+
+.interests {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+.section3 {
+    display: flex;
+    justify-content: end;
+}
+.section4 {
+    display: flex;
+    justify-content: start;
+}
+.contactpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+.contact-section {
+    display: flex;
+    justify-content: center;
+}
